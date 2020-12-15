@@ -32,7 +32,7 @@ function menu() {
             </div>
             <div>
                 <ul>
-                    <li><a href="#inicio">Imagens</a></li>
+                    <li><a href="#inicio">Início</a></li>
                     <li><a href="#gallery">Imagens</a></li>
                     <li>Vídeos</li>
                     <li>Arquivos</li>
