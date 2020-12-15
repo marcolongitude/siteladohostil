@@ -72,7 +72,9 @@ const PHOTO_SET = [
 
 function gallery() {
     return (
-        <Gallery photos={PHOTO_SET} direction={"row"} />
+        <div id="gallery">
+            <Gallery photos={PHOTO_SET} direction={"row"}/>
+        </div>
     )
 }
 

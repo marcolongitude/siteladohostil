@@ -5,7 +5,7 @@ import { ContainerHeader } from './styles';
 function header() {
     return (
         <ContainerHeader>
-            <h1>teste header</h1>
+            <span id="inicio"></span>
         </ContainerHeader>
     )
 }
