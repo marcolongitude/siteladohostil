@@ -11,7 +11,7 @@ const GlobalStyle = createGlobalStyle`
     *:focus {
         outline: 0;
     }
-    html: {
+    html {
         scroll-behavior: smooth;
     }
     html, body, #root {
