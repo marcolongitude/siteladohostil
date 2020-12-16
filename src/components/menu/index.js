@@ -16,7 +16,7 @@ function menu() {
                 <Image src="/images/logos/ladohostilpretobranco.png" width={60} height={60} />
                 <span>Lado Hostil</span>
             </ContainerLogo>
-            <div>
+            {/* <div>
                 <a href="#" >
                     <Image src="/images/icons/facebook.png" width={30} height={30} />
                 </a>
@@ -29,12 +29,12 @@ function menu() {
                 <a href="#" >
                     <Image src="/images/icons/youtube.png" width={30} height={30} />
                 </a>
-            </div>
+            </div> */}
             <div>
                 <ul>
                     <li><a href="#inicio">Início</a></li>
                     <li><a href="#gallery">Imagens</a></li>
-                    <li>Vídeos</li>
+                    <li><a href="#videos">Vídeos</a></li>
                     <li>Arquivos</li>
                 </ul>
             </div>

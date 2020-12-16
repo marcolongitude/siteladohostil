@@ -9,7 +9,7 @@ export const Container = styled.div`
     background-color: #24292e;
     position: fixed;
     width: 100%;
-    opacity: 0.7;
+    /* opacity: 0.7; */
     div > a {
         margin: 10px;   
     }
@@ -21,6 +21,15 @@ export const Container = styled.div`
         margin: 10px;
         color: white;
     }
+    @media(max-width: 550px){
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100px;
+        span{
+            display: none;
+        }
+    }
 `
 
 export const ContainerLogo = styled.div`
@@ -30,4 +39,7 @@ export const ContainerLogo = styled.div`
     width: 160px;   
     color: white;
     font-size: 1rem;
+    @media(max-width: 550px){
+        justify-content: center;
+    }
 `

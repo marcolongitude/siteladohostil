@@ -13,6 +13,7 @@ const GlobalStyle = createGlobalStyle`
     }
     html {
         scroll-behavior: smooth;
+        background-color: #24292e;
     }
     html, body, #root {
         height: 100%;
