@@ -20,7 +20,7 @@ export const Files = styled.div`
     flex-direction: row;
     justify-content: space-between;
     justify-content: center;
-        align-items: center;
+    align-items: center;
     flex-wrap: wrap;
 
     div{

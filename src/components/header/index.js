@@ -7,7 +7,7 @@ function header() {
     return (
         <ContainerHeader>
             <span id="inicio"></span>
-            <Image src="/images/header/header1.jpg" layout="fill" />
+            <Image src="/images/header/header1.jpg" layout="responsive" width={600} height={400} />
         </ContainerHeader>
     )
 }
