@@ -3,6 +3,7 @@ import Menu from '../components/menu';
 import Header from '../components/header';
 import Gallery from '../components/gallery';
 import Videos from '../components/videos';
+import Files from '../components/files';
 
 function Index() {
     return (
@@ -11,6 +12,7 @@ function Index() {
             <Header />
             <Gallery />
             <Videos />
+            <Files />
         </div>
     )
 }

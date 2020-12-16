@@ -35,7 +35,7 @@ function menu() {
                     <li><a href="#inicio">Início</a></li>
                     <li><a href="#gallery">Imagens</a></li>
                     <li><a href="#videos">Vídeos</a></li>
-                    <li>Arquivos</li>
+                    <li><a href="#files">Arquivos</a></li>
                 </ul>
             </div>
         </Container>

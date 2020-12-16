@@ -9,6 +9,7 @@ export const Container = styled.div`
     background-color: #24292e;
     position: fixed;
     width: 100%;
+    z-index: 100;
     /* opacity: 0.7; */
     div > a {
         margin: 10px;   
