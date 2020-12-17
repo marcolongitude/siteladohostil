@@ -16,20 +16,6 @@ function menu() {
                 <Image src="/images/logos/ladohostilpretobranco.png" width={60} height={60} />
                 <span>Lado Hostil</span>
             </ContainerLogo>
-            {/* <div>
-                <a href="#" >
-                    <Image src="/images/icons/facebook.png" width={30} height={30} />
-                </a>
-                <a href="#" >
-                    <Image src="/images/icons/instagram.png" width={30} height={30} />
-                </a>
-                <a href="#" >
-                    <Image src="/images/icons/whatsapp.png" width={30} height={30} />
-                </a>
-                <a href="#" >
-                    <Image src="/images/icons/youtube.png" width={30} height={30} />
-                </a>
-            </div> */}
             <div>
                 <ul>
                     <li><a href="#inicio">Início</a></li>
