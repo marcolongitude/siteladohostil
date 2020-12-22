@@ -2,7 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import styles from './styles.module.css'
 
-function header() {
+const header = () =>  {
     return (
         <div className={styles.container}>
             <span id="inicio"></span>
