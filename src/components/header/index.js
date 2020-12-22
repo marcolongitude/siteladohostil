@@ -2,8 +2,6 @@ import React from 'react';
 import Image from 'next/image';
 import styles from './styles.module.css'
 
-import { ContainerHeader } from './styles';
-
 function header() {
     return (
         <div className={styles.container}>
