@@ -6,7 +6,7 @@ import styles from './styles.module.css';
 const files = ()=> {
     return (
         <div className={styles.container}>
-            <span id="files">Baixe os arquivos da banda Lado Hostil</span>
+            <span id="files" >Baixe os arquivos da banda Lado Hostil</span>
             <div className={styles.containerFiles}>
                 <div><a src="#">Release</a></div>
                 <div><a src="#">Mapa de palco</a></div>

@@ -38,3 +38,13 @@
     max-width: 550px;
     margin: 15px;
 }
+
+@media(max-width: 880px){
+    .imgLogoVideos {
+        width: 90px;
+    }
+
+    .titleVideos {
+        font-size: 1.6rem;
+    }
+}

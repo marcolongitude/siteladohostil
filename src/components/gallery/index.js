@@ -76,7 +76,9 @@ function gallery() {
     return (
         <div id="gallery">
             <div className={styles.containerLogo}>
-                <Image src="/images/logos/ladohostilpretobranco.png" width={130} height={130} />
+                <span className={styles.imgLogoGallery}>
+                    <Image id="logoGallery" src="/images/logos/ladohostilpretobranco.png" width={130} height={130} />
+                </span>
             </div>
             <div className={styles.titleVideos}>
                 Galeria de fotos

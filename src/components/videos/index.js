@@ -8,7 +8,9 @@ const videos = () => {
         <div className={styles.container}>
             <span id="videos"></span>
             <div className={styles.containerLogo}>
-                <Image src="/images/logos/ladohostilpretobranco.png" width={130} height={130} />
+                <span className={styles.imgLogoVideos} >
+                    <Image src="/images/logos/ladohostilpretobranco.png" width={130} height={130} />
+                </span>
             </div>
             <div className={styles.titleVideos}>
                 Assista a vídeos de shows da banda Lado Hostil

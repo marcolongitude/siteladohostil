@@ -5,12 +5,13 @@
     align-items: center;
     flex-wrap: wrap;
     flex-direction: column;
+    font-size: 2rem;
 }
 
 .container > span{
     color: white;
-        font-size: 2rem;
-        margin: 50px;
+    
+    margin: 50px;
 }
 
 .containerFiles{
@@ -36,4 +37,14 @@
 
 .containerFiles > a{
     cursor: pointer;
+}
+
+@media(max-width: 880px) {
+    .containerFiles > div {
+        width: 280px;
+    }
+
+    .container {
+        font-size: 1.6rem
+    }
 }
