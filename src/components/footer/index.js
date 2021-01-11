@@ -6,10 +6,6 @@ const footer = () => {
     return  (
         <div className={styles.container}>
 
-            <div className={styles.containerLogo}>
-                <Image src="/images/logos/ladohostilpretobranco.png" width={130} height={130} />
-            </div>
-
             <div className={styles.containerSocials}>
                 <a href="https://www.facebook.com/LADO-HOSTIL-Tributo-ORappa-293628441150691" >
                     <Image src="/images/icons/facebook.png" width={40} height={40} />
@@ -25,11 +21,21 @@ const footer = () => {
                 </a>
             </div>
 
+
             <div className={styles.informationsFooter}>
-                <p>Anthonielly ( tony ) - vocal</p>
-                <p>Madson ( madim ) - guitarra </p>
-                <p>Murilo  ( gerera ) - baixo</p>
-                <p>Marco Aurélio ( marco ) - guitarra</p>
+                <div >
+                    <Image src="/images/logos/LogoRappa.png" width={130} height={130} />
+                </div>
+                <div className={styles.membersBand}>
+                    <h4>Banda Lado Hostil - tributo oRappa</h4>
+                    <p>Anthonielly ( tony ) - vocal</p>
+                    <p>Madson ( madim ) - guitarra </p>
+                    <p>Murilo  ( gerera ) - baixo</p>
+                    <p>Marco Aurélio ( marco ) - guitarra</p>
+                </div>
+                <div >
+                    <Image src="/images/logos/ladohostilpretobranco.png" width={130} height={130} />
+                </div>
             </div>
         </div>
     )

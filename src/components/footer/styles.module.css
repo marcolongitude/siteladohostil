@@ -1,6 +1,6 @@
 .container {
     width: 100%;
-    height: 500px;
+    height: 400px;
     margin-top: 50px;
     color: white;
 }
@@ -23,9 +23,20 @@
 
 .informationsFooter {
     padding: 10px 40px 15px 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: row;
+    margin-top: 40px;
 }
 
-.informationsFooter > p {
-    margin: 10px;
+.membersBand {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
 }
 
+.membersBand > p {
+    margin: 10px 0 0 0;
+}
