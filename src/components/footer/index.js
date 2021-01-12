@@ -23,7 +23,7 @@ const footer = () => {
 
 
             <div className={styles.informationsFooter}>
-                <div >
+                <div className={styles.logoRappa} >
                     <Image src="/images/logos/LogoRappa.png" width={130} height={130} />
                 </div>
                 <div className={styles.membersBand}>
@@ -34,7 +34,9 @@ const footer = () => {
                     <p>Marco Aurélio ( marco ) - guitarra</p>
                 </div>
                 <div >
-                    <Image src="/images/logos/ladohostilpretobranco.png" width={130} height={130} />
+                    <span className={styles.logoFooter}>
+                        <Image src="/images/logos/ladohostilpretobranco.png" width={130} height={130} />
+                    </span>
                 </div>
             </div>
         </div>

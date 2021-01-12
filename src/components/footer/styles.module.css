@@ -24,8 +24,8 @@
 .informationsFooter {
     padding: 10px 40px 15px 40px;
     display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
+    justify-content: space-between;
+    align-items: center;
     flex-direction: row;
     margin-top: 40px;
 }
@@ -39,4 +39,15 @@
 
 .membersBand > p {
     margin: 10px 0 0 0;
+}
+
+@media(max-width: 800px) {
+    .logoRappa {
+        display: none;
+    }
+
+    .logoFooter {
+        width: 90px;
+        display: none;
+    }
 }
