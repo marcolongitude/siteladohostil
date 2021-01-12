@@ -1,0 +1,22 @@
+.containerLogo {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.titleVideos {
+    color: white;
+    text-align: center;
+    margin: 20px;
+    font-size: 2rem;
+}
+
+@media(max-width: 880px){
+    .imgLogoGallery {
+        width: 90px;
+    }
+
+    .titleVideos {
+        font-size: 1.6rem;
+    }
+}

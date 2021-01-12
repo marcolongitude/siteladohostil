@@ -1,5 +1,7 @@
 import React from 'react';
 import Gallery from 'react-photo-gallery';
+import Image from 'next/image';
+import styles from './styles.module.css';
 
 const PHOTO_SET = [
     {
@@ -73,6 +75,14 @@ const PHOTO_SET = [
 function gallery() {
     return (
         <div id="gallery">
+            <div className={styles.containerLogo}>
+                <span className={styles.imgLogoGallery}>
+                    <Image id="logoGallery" src="/images/logos/ladohostilpretobranco.png" width={130} height={130} />
+                </span>
+            </div>
+            <div className={styles.titleVideos}>
+                Galeria de fotos
+            </div>
             <Gallery photos={PHOTO_SET} direction={"row"}/>
         </div>
     )

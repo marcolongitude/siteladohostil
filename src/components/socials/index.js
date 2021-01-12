@@ -1,11 +1,11 @@
 import React from 'react';
 import Image from 'next/image';
+import styles from './styles.module.css';
 
-import { Container } from './styles';
 
-function socials() {
+const socials = () => {
     return (
-        <Container>
+        <div className={styles.container}>
             <a href="https://www.facebook.com/LADO-HOSTIL-Tributo-ORappa-293628441150691" >
                 <Image src="/images/icons/facebook.png" width={40} height={40} />
             </a>
@@ -18,7 +18,7 @@ function socials() {
             <a href="https://www.youtube.com/channel/UCJbYNv36IXpK-SG2kDGtVlQ" >
                 <Image src="/images/icons/youtube.png" width={40} height={40} />
             </a>
-        </Container>
+        </div>
     )
 }
 

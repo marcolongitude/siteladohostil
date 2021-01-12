@@ -1,14 +1,13 @@
 import React from 'react';
 import Image from 'next/image';
+import styles from './styles.module.css'
 
-import { ContainerHeader } from './styles';
-
-function header() {
+const header = () =>  {
     return (
-        <ContainerHeader>
+        <div className={styles.container}>
             <span id="inicio"></span>
             <Image src="/images/header/header1.jpg" layout="responsive" width={600} height={400} />
-        </ContainerHeader>
+        </div>
     )
 }
 

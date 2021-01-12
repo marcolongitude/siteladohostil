@@ -1,21 +1,15 @@
 import React from 'react';
 import Image from 'next/image';
-import { library } from '@fortawesome/fontawesome-svg-core';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { fas } from '@fortawesome/free-solid-svg-icons';
-
-import { Container, ContainerLogo } from './styles';
-
-library.add(fas)
+import styles from './styles.module.css';
 
 
-function menu() {
+const menu = () => {
     return (
-        <Container>
-            <ContainerLogo>
+        <div className={styles.container}>
+            <div className={styles.containerLogo}>
                 <Image src="/images/logos/ladohostilpretobranco.png" width={60} height={60} />
                 <span>Lado Hostil</span>
-            </ContainerLogo>
+            </div>
             <div>
                 <ul>
                     <li><a href="#inicio">Início</a></li>
@@ -24,7 +18,7 @@ function menu() {
                     <li><a href="#files">Arquivos</a></li>
                 </ul>
             </div>
-        </Container>
+        </div>
     )
 }
 
