@@ -5,6 +5,7 @@ import Gallery from '../components/gallery';
 import Videos from '../components/videos';
 import Files from '../components/files';
 import Socials from '../components/socials';
+import Footer from '../components/footer';
 
 function Index() {
     return (
@@ -15,6 +16,7 @@ function Index() {
             <Gallery />
             <Videos />
             <Files />
+            <Footer />
         </div>
     )
 }
